@@ -31,9 +31,6 @@ $(call inherit-product, vendor/realme/even-ims/even-ims.mk)
 # RealmeParts
 $(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
-# RealmeDirac
-$(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
-
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
